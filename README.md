@@ -2,23 +2,20 @@
 
 [![NPM](https://nodei.co/npm/turtlecoin-utils.png?downloads=true&stars=true)](https://nodei.co/npm/turtlecoin-utils/)
 
-#### Master Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin-utils.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin-utils)
-
-# TurtleCoin Javascript Utilities
+# Kriegerrand Javascript Utilities
 
 ## Disclaimer
 
 ***Use of this code in its current state may lead to unexpected results***
 
-This repository contains highly experimental code  with the goal of making it possible to interact with a daemon including wallet functionaity (sending/receiving transactions) without the need for `turtle-service` or `wallet-api` using Node.js. By using the code in this repo, you understand that some functions may not work, others may work but be untested, while others may upset you.
+This repository contains highly experimental code  with the goal of making it possible to interact with a daemon including wallet functionaity (sending/receiving transactions) without the need for `kriegerrand-service` or `wallet-api` using Node.js. By using the code in this repo, you understand that some functions may not work, others may work but be untested, while others may upset you.
 
 The best way to address such situations is to submit a Pull Request to resolve the issue you're running into.
 
 ## Installation
 
 ```bash
-npm i git+https://github.com/turtlecoin/turtlecoin-utils
+npm i git+https://github.com/Algersoft/kriegerrand-utils
 ```
 
 ## Initialization
@@ -26,15 +23,15 @@ npm i git+https://github.com/turtlecoin/turtlecoin-utils
 ### JavaScript
 
 ```javascript
-const TurtleCoinUtils = require('turtlecoin-utils')
-const coinUtils = new TurtleCoinUtils()
+const KriegerrandUtils = require('kriegerrand-utils')
+const coinUtils = new KriegerrandUtils()
 ```
 
 ### TypeScript
 
 ```typescript
-import TurtleCoinUtils = require('turtlecoin-utils');
-const coinUtils = new TurtleCoinUtils()
+import KriegerrandUtils = require('kriegerrand-utils');
+const coinUtils = new KriegerrandUtils()
 ```
 
 You can find type definitions [here](index.d.ts)
@@ -45,8 +42,8 @@ If initializing for a different CryptoNote project you can specify the configura
 All parameters are optional.
 
 ```javascript
-const TurtleCoinUtils = require('turtlecoin-utils')
-const coinUtils = new TurtleCoinUtils({
+const KriegerrandUtils = require('kriegerrand-utils')
+const coinUtils = new KriegerrandUtils({
   /* The amount of decimals your coin has */
   coinUnitPlaces: 8,
 
@@ -184,8 +181,11 @@ Returns a string.
 
 ### Credits
 
+Forked from turtlecoin/turtlecoin-utils
+
 Special thanks goes out to:
 
+* TurtleCoin: [TRTL](https://github.com/turtlecoin/turtlecoin)
 * Lucas Jones
 * Paul Shapiro
 * Luigi111
