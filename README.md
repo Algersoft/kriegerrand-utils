@@ -153,8 +153,7 @@ Returns a string.
     privateKey: '40cf3cdab84ef0c2c17c100ffb1ba3cb1c86e22f2c4bed766a465d466b210a0f',
     publicKey: '1909af618bef1ecd30339fe12fb133bbaad05cc0ea365caf02254a5f3ae735df'
   },
-  address: 'TRTLuwmU3QWjU77wyHMvBiMdiQdKgj9qfEc3oiEhHfizSu8wZ6K8ZoWQQY57qNmDC48yg6UAHzyTugB9tMohMnUEArSCdrmeUdP',
-  mnemonic: 'lagoon much skirting goes okay afield royal cupcake lordship myriad necklace pliers noodles laboratory axes useful poverty igloo diode ablaze nifty inline point ritual necklace',
+  address: 'journal oven badge scrub scenic february fancy bagpipe edited repent smidgen lobster bypass vapidly doorway present olive answers enhanced mocked decay smidgen present raking repent',
   seed: '517f0d3c5438416adad752557fdf001acfea189d35af8bba326c86928cc6100e'
 }
 ```
@@ -174,9 +173,9 @@ Returns a string.
 
 ```javascript
 { prefix: '9df6ee01',
-  base58: 'TRTL',
-  decimal: 3914525,
-  hexadecimal: '3bbb1d' }
+  base58: 'KREGR',
+  decimal: 3170026480963,
+  hexadecimal: '0x2e2144d6543' }
 ```
 
 ### Credits
